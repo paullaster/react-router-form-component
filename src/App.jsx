@@ -5,11 +5,11 @@ function App() {
 
   return (
     <div className="App">
-      <Form>
+      <form>
         <input type="text" name='title'/>
         <input type="text" name="description"/>
         <button type='submit'>create</button>
-      </Form>
+      </form>
     </div>
   )
 }
