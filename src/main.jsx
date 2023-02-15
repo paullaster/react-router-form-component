@@ -8,8 +8,10 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 const app = createBrowserRouter(
   createRoutesFromElements(
     <Route
+    action={rootAction}
     path='/'
     element={<App/>}
+    
     />
   )
 )
