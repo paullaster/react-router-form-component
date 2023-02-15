@@ -1,6 +1,8 @@
 import { Form } from 'react-router-dom'
 
-function App() {
+
+
+const App = () =>{
 
   return (
     <Form method='POST'>
