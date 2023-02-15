@@ -6,7 +6,7 @@ export const action = () => {
 };
 
 const App = () => {
-  const {message} = useLoaderData()
+  const message = useLoaderData()
   return (
     <>
       <Form method="POST">
