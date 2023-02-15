@@ -1,7 +1,7 @@
 import { Form } from 'react-router-dom'
 
 export const action = () => {
-  
+  const message = "This is a pure blis";
 }
 
 const App = () =>{
