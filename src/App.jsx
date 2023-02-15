@@ -1,6 +1,8 @@
 import { Form } from 'react-router-dom'
 
-
+export const action = () => {
+  
+}
 
 const App = () =>{
 
