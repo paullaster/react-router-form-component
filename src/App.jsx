@@ -1,19 +1,24 @@
-import { Form } from 'react-router-dom'
+import { Form } from "react-router-dom";
 
 export const action = () => {
   const message = "This is a pure blis";
-  return {message}
-}
+  return { message };
+};
 
-const App = () =>{
-
+const App = () => {
   return (
-    <Form method='POST'>
-      <input type="text" name='title' placeholder='Mugging'/>
-      <input type="text" name='description' placeholder='This is the act of ...' />
-      <button type='submit'>create</button>
-    </Form>
-  )
-}
+    <>
+      <Form method="POST">
+        <input type="text" name="title" placeholder="Mugging" />
+        <input
+          type="text"
+          name="description"
+          placeholder="This is the act of ..."
+        />
+        <button type="submit">create</button>
+      </Form>
+    </>
+  );
+};
 
-export default App
+export default App;
