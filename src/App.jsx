@@ -17,6 +17,9 @@ const App = () => {
         />
         <button type="submit">create</button>
       </Form>
+      <div>
+        <span>{message}</span>
+      </div>
     </>
   );
 };
