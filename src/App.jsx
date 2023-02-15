@@ -1,4 +1,4 @@
-import { Form } from "react-router-dom";
+import { Form, useLoaderData } from "react-router-dom";
 
 export const action = () => {
   const message = "This is a pure blis";
@@ -6,6 +6,7 @@ export const action = () => {
 };
 
 const App = () => {
+  const message = useLoaderData()
   return (
     <>
       <Form method="POST">
